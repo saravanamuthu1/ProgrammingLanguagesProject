@@ -16,3 +16,11 @@ Create a virtual environment by running virtualenv myenv. This will create a new
 Activate the virtual environment by running source myenv/bin/activate on Mac/Linux or .\myenv\Scripts\activate on Windows.
 Install the required packages listed in the requirements.txt file by running pip install -r requirements.txt. This will install all the required packages in the virtual environment.
 Run the program by running python project.py.
+
+code Instructions
+pip install virtualenv
+virtualenv myenv
+myenv/bin/activate on Mac/Linux
+.\myenv\Scripts\activate on Windows.
+pip install -r requirements.txt
+python project.py
