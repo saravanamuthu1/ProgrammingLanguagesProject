@@ -91,7 +91,7 @@ if __name__ == "__main__":
     xslt_names = ["transform.xslt","transform1.xslt"]
 
     # Parse each XML file, apply XSLT transformation, and print the resulting string
-    for file_name,xslt_filein zip(file_names,xslt_names):
+    for file_name,xslt_file in zip(file_names,xslt_names):
         xml_str = open(file_name).read()
         print(f"--- Parsing and transforming {file_name} ---")
         transformed_str = transform_xml(xml_str, xslt_file)
