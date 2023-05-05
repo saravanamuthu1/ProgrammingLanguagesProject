@@ -10,9 +10,9 @@ The module also includes a function for reading an XML file and building an XML 
 Finally, the module includes a function for transforming an XML document using XSLT. The function takes an XML string and XSLT file name as input, parses the XSLT file and XML string into lxml objects, applies the XSLT transformation to the XML document using the lxml XSLT class, and returns the transformed result as a string.
 
 # How to execute the program
-    Open a terminal window and navigate to the project directory.
-    Install virtualenv by running pip install virtualenv if it's not already installed.
-    Create a virtual environment by running virtualenv myenv. This will create a new directory named myenv in your project directory that will contain the necessary Python packages to run your project.
-    Activate the virtual environment by running source myenv/bin/activate on Mac/Linux or .\myenv\Scripts\activate on Windows.
-    Install the required packages listed in the requirements.txt file by running pip install -r requirements.txt. This will install all the required packages in the virtual environment.
-    Run the program by running python project.py.
+Open a terminal window and navigate to the project directory.
+Install virtualenv by running pip install virtualenv if it's not already installed.
+Create a virtual environment by running virtualenv myenv. This will create a new directory named myenv in your project directory that will contain the necessary Python packages to run your project.
+Activate the virtual environment by running source myenv/bin/activate on Mac/Linux or .\myenv\Scripts\activate on Windows.
+Install the required packages listed in the requirements.txt file by running pip install -r requirements.txt. This will install all the required packages in the virtual environment.
+Run the program by running python project.py.
