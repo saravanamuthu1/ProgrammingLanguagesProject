@@ -10,8 +10,8 @@ The module also includes a function for reading an XML file and building an XML 
 Finally, the module includes a function for transforming an XML document using XSLT. The function takes an XML string and XSLT file name as input, parses the XSLT file and XML string into lxml objects, applies the XSLT transformation to the XML document using the lxml XSLT class, and returns the transformed result as a string.
 
 # How to execute the program
-1.pip install virtualenv
-2.virtualenv myenv
-3.source myenv/bin/activate
-4.pip install -r requirements.txt
-5.python project.py
+pip install virtualenv
+virtualenv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+python project.py
